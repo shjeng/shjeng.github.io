@@ -1,7 +1,5 @@
-.sass-cache
-.DS_Store
 _site
-FUT
-.brackets.json
-kramdown
+.sass-cache
+.jekyll-cache
 .jekyll-metadata
+vendor
