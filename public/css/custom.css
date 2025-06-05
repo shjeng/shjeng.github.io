@@ -1,0 +1,8 @@
+.avatar {
+    width: 100px;         /* 너비를 100px로 제한 */
+    height: 100px;        /* 높이를 100px로 제한 */
+    border-radius: 50%;   /* 둥근 형태(50%) */
+    object-fit: cover;    /* 비율 유지하며 잘라내기(이미지 찌그러짐 방지) */
+    display: block;       /* 부모 <a> 안에서 블록 형태로 정렬(선택) */
+    margin: 0 10px;       /* 가로 가운데 정렬(선택) */
+}
