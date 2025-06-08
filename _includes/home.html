@@ -1,27 +1,87 @@
 <article class="post">
   <header class="post-header home">
-    <div class="post-title">정시화~</div>
+    <div class="post-title">Profile</div>
   </header>
+  <div class="profile-section">
+    <img src="/public/img/home/me.jfif" class="profile-image"/>
+    <div class="profile-info">
+      <div class="profile-info">
+        <div class="profile-name-container">
+          <h1 class="profile-name">정시화</h1>
+          <h2 class="profile-name-en">JEONG SIHWA</h2>
+        </div>
+        <p class="profile-description">Java Backend Developer</p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <img src="/public/img/icon/email.png" alt="Email" class="contact-icon">
+            <a href="mailto:ghsmsl20@gmail.com">ghsmsl20@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <img src="/public/img/icon/phone.png" alt="Phone" class="contact-icon">
+            <span>010-9329-5764</span>
+          </div>
+          <div class="contact-item">
+            <img src="/public/img/icon/github.png" alt="GitHub" class="contact-icon">
+            <a href="https://github.com/shjeng" target="_blank">https://github.com/shjeng</a>
+          </div>
+          <div class="contact-item">
+            <img src="/public/img/icon/notion.png" alt="Notion" class="contact-icon">
+            <a href="https://www.notion.so/iamsihwa/JAVA-Back-End-9823aa04c12b4d8e823ac550723d931e?pvs=4" target="_blank">https://www.notion.so/iamsihwa</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
 
+<article class="post">
+  <header class="post-header home">
+    <div class="post-title">Career</div>
+  </header>
+  <div class="career-section">
+    <div class="career-item">
+      <div class="career-period">2024.04 ~ 2024.06</div>
+      <div class="career-title">국비지원 Java 백엔드 개발자 양성과정</div>
+      <div class="career-position">수료생</div>
+      <div class="career-description">Java 기반 백엔드 개발자 양성 과정 수료</div>
+    </div>
+    <div class="career-item">
+      <div class="career-period">2024.07 ~ 2024.09</div>
+      <div class="career-title">국비지원 Java 백엔드 개발자 실무과정</div>
+      <div class="career-position">수료생</div>
+      <div class="career-description">실무 프로젝트 진행 및 팀 프로젝트 참여</div>
+    </div>
+  </div>
+</article>
+
+<article class="post">
+  <header class="post-header home">
+    <div class="post-title">Skills</div>
+  </header>
+  <div class="skills-section">
+    <ul class="skills-list">
+      <!-- 여기에 스킬들을 추가하세요 -->
+    </ul>
+  </div>
+</article>
+
+<article class="post">
+  <header class="post-header home">
+    <div class="post-title">Projects</div>
+  </header>
   <div class="post-content">
-      {%- if site.posts.size > 0 -%}
+    {%- if site.posts.size > 0 -%}
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li class="post-list-item">
-        <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
-        {%- assign date_format = "%Y/%m/%d" -%}
-        <span class="post-date">{{ post.date | date: date_format }}</span>
-      	<a class="post-link" href="{{ post.url | relative_url }}">
-    	    {{ post.title | escape }}
-		</a>
+        <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
         {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
-  {%- endif -%}
+    {%- endif -%}
   </div>
 </article>
-
-
-
-</div>

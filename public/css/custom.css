@@ -6,3 +6,128 @@
     display: block;       /* 부모 <a> 안에서 블록 형태로 정렬(선택) */
     margin: 0 10px;       /* 가로 가운데 정렬(선택) */
 }
+
+/* Profile Section Styles */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name-container {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #333;
+  margin: 0;
+}
+
+.profile-name-en {
+  font-size: 1.5rem;
+  color: #666;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.profile-description {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.contact-info {
+  margin-top: 1rem;
+}
+
+.career-section {
+  margin-top: 1rem;
+}
+
+.career-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-left: 4px solid #666;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0 8px 8px 0;
+}
+
+.career-period {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.career-title {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.career-position {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.career-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.contact-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+  transform: scale(1.1);
+}
+
+.contact-item a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #007bff;
+}
+
+.contact-item span {
+  color: #666;
+}
