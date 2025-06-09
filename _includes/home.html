@@ -59,9 +59,54 @@
     <div class="post-title">Skills</div>
   </header>
   <div class="skills-section">
-    <ul class="skills-list">
-      <!-- 여기에 스킬들을 추가하세요 -->
-    </ul>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-java" style="color: #007396"></i>
+      <h3 class="skill-name">Java</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-solid fa-leaf" style="color: #6db33f"></i>
+      <h3 class="skill-name">Spring</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-solid fa-database" style="color: #000000"></i>
+      <h3 class="skill-name">JPA</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-solid fa-database" style="color: #000000"></i>
+      <h3 class="skill-name">MyBatis</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-js-square" style="color: #f0db4f"></i>
+      <h3 class="skill-name">JavaScript</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-react" style="color: #61dafb"></i>
+      <h3 class="skill-name">React</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-html5" style="color: #e34f26"></i>
+      <h3 class="skill-name">HTML/CSS</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-js" style="color: #f0db4f"></i>
+      <h3 class="skill-name">jQuery</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-solid fa-database" style="color: #003545"></i>
+      <h3 class="skill-name">MariaDB</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-docker" style="color: #2496ed"></i>
+      <h3 class="skill-name">Docker</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-aws" style="color: #232f3e"></i>
+      <h3 class="skill-name">AWS</h3>
+    </div>
+    <div class="skill-card">
+      <i class="skill-icon fa-brands fa-git-alt" style="color: #f34f29"></i>
+      <h3 class="skill-name">Git</h3>
+    </div>
   </div>
 </article>
 
@@ -74,7 +119,7 @@
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li class="post-list-item">
-        <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
+        <div class="project-period">{{ post.period }}</div>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
