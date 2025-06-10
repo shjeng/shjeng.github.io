@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: shjeng
+notion_url: https://www.notion.so/iamsihwa/JAVA-Back-End-1e2d296d2ce380849d0bf6191fb7d04f?source=copy_link
 highlighter: rouge
 svg:
   optimize: true
@@ -36,7 +37,6 @@ plugins:
   - jekyll-feed
 category_dir: category/
 tag_dir: tag/
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

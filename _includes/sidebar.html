@@ -31,14 +31,17 @@
 <div class="sidebar-item sidebar-nav">
   	<ul class="nav">
 			<li class="nav-title">Contact</li>
-	    {% for category in site.categories %}
-	    <li>
-	    	<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-				<span class="name">{{ category | first }}</span>
-				<span class="badge">{{ category | last | size }}</span>
+	    <li class="social-links">
+	    	<a class="nav-item social-link" href="https://github.com/{{ site.github_username }}" target="_blank" title="GitHub">
+				<img src="/public/img/icon/github.png" alt="GitHub" style="width: 24px; height: 24px; filter: brightness(0) invert(1);">
+	    	</a>
+	    	<a class="nav-item social-link" href="mailto:{{ site.email }}" title="Email">
+				<img src="/public/img/icon/email.png" alt="Email" style="width: 24px; height: 24px; filter: brightness(0) invert(1);">
+	    	</a>
+	    	<a class="nav-item social-link" href="{{ site.notion_url }}" target="_blank" title="Notion">
+				<img src="/public/img/icon/notion.svg" alt="Notion" style="width: 24px; height: 24px; filter: brightness(0) invert(1);">
 	    	</a>
  		</li>
-	    {% endfor %}
 	  </nav>
 	</ul>
 </div>
