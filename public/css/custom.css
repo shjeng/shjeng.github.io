@@ -15,6 +15,20 @@
   margin-bottom: 2rem;
 }
 
+/* Content Width Styles */
+.content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Profile Section Styles */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 /* Skills Section Styles */
 .skills-section {
   display: grid;
@@ -51,6 +65,36 @@
   line-height: 1.2;
 }
 
+/* Fullscreen Image Viewer Styles */
+.fullscreen-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.fullscreen-image {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+  cursor: zoom-out;
+}
+
+.fullscreen-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 .project-period {
   font-size: 0.8rem;
   color: #666;
@@ -60,6 +104,57 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 4px;
 }
+
+/* Technology Stack Styles */
+.technology-stack {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.stack-column {
+  flex: 1;
+}
+
+.stack-column h3 {
+  margin: 1rem 0 0.5rem;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.stack-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stack-column li {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+/* Image Group Styles */
+.image-group {
+  margin-bottom: 1.5rem;
+}
+
+.image-group img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.image-caption {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  padding: 0.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
 
 .nav-item {
   font-size: 1.1em;
