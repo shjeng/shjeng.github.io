@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 정선군립 도서관
-period: 2024.03 ~ 2024.07
+title: 도서관 협회
+period: 2024.07 ~ 2024.09
 date: 2020-01-12 19:20:23 +0900
 category: portfolio
 tags: [웹개발, React, Node.js, MongoDB]
@@ -16,14 +16,13 @@ demo: https://jeongseon-library.com
 <div class="portfolio-section">
 <div class="portfolio-content">
 
-<li>정선군립 도서관의 웹사이트 신규 구축 개발 프로젝트입니다. </li>
-<li>도서 검색, 대출/반납, 예약 서비스 등 도서관의 핵심 기능을 온라인으로 제공합니다.</li>
-<li> 해당 프로젝트를 진행하면서 CMS 초기 버전을 구축했습니다.</li>
+<li>도서관 협회 웹사이트 신규 구축 개발 프로젝트입니다. </li>
+<li>다양한 서비스 및  홈페이지 관리 기능을 개발했습니다. </li>
 
 </div>
 <div class="portfolio-image">
-![정선군립 도서관 메인 페이지](/public/img/screenshot-1.png)
-<div class="image-caption">정선군립 도서관 메인 페이지</div>
+![도서관 협회 메인 페이지](/public/img/screenshot-1.png)
+<div class="image-caption">도서관 협회 메인 페이지</div>
 </div>
 </div>
 
