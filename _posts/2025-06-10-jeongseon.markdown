@@ -28,7 +28,6 @@ demo: https://jeongseon-library.com
 </div>
 
 ---
-
 ## 🛠️ 사용 기술
 
 <div class="technology-stack">
@@ -97,23 +96,31 @@ demo: https://jeongseon-library.com
     </div>
 
 </div>
-## 📸 프로젝트 스크린샷
+---
 
-![메인 페이지](/public/img/screenshot-1.png)
-![도서 검색](/public/img/screenshot-2.png)
+## 🌲 성장 경험
 
-### 기술적 성장
 
-- React Hooks와 Context API 활용 능력 향상
-- MongoDB와 Mongoose를 활용한 데이터 모델링 경험
-- AWS EC2와 S3를 활용한 배포 경험
+### 📌 협업과 유지보수를 고려한 개발 습관의 변화
 
-## 🔗 관련 링크
+혼자 공부하던 시절에는 변수명이나 메서드명을 깊이 고민하지 않았고, 로그도 거의 남기지 않았습니다.  
+이러한 습관은 실제 프로젝트와 운영 환경에서 다음과 같은 문제를 일으켰습니다:
 
-- [GitHub Repository](https://github.com/username/jeongseon-library)
-- [Live Demo](https://jeongseon-library.com)
-- [프로젝트 문서](https://docs.jeongseon-library.com)
+- 운영 서버에서 **알라딘 API 오류** 발생 → 전체 **책 검색 기능 마비**
+- 하지만 **로그가 남지 않아 원인 파악에 큰 시간 소요**
+- 협업 시 **의미 없는 변수명**으로 인해 코드 이해에 어려움 발생
+- 시간이 지나면서 **자신이 짠 코드조차 이해하기 어려운 상황**이 생김
 
-```ruby
-print 'hello world'
-```
+이러한 경험을 통해 개발 습관을 다음과 같이 개선하게 되었습니다.
+
+#### 🔄 개선 방향
+
+- 변수와 메서드명을 지을 때 **의미 있고 명확한 이름을 고민**
+- 로그는 **과하다 싶을 정도로 상세히 기록**
+- 이후 **불필요한 로그는 정리**하는 방식으로 유지 관리
+- 향후에는 **공식 코드 컨벤션 문서화 및 공유** 계획도 수립
+
+이러한 개선을 통해 협업과 유지보수가 쉬운 코드를 작성하는 데 더 큰 가치를 두게 되었으며,  
+운영 안정성 또한 크게 향상시킬 수 있었습니다.
+
+
