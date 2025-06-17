@@ -14,21 +14,22 @@ demo: https://jeongseon-library.com
 ## 📋 프로젝트 개요
 
 <div class="portfolio-section">
-<div class="portfolio-content">
-<ul>
-    <li>정선군립 도서관의 웹사이트 신규 구축 개발 프로젝트입니다.</li>
-    <li>도서 검색, 대출/반납, 예약 서비스 등 도서관의 핵심 기능을 온라인으로 제공합니다.</li>
-    <li>해당 프로젝트를 진행하면서 CMS 초기 버전을 구축했습니다.</li>
-</ul>
-</div>
-<div class="portfolio-image">
-    <a href="https://lib.jeongseon.go.kr/main" target="_blank">
-        <img src="/public/img/post/06/jeongseon_main.png" alt="정선군립 도서관 메인 페이지"/>
-    </a>
-    <a href="https://lib.jeongseon.go.kr/main" target="_blank">
-        <div class="image-caption">정선군립 도서관 메인 페이지</div>
-    </a>
-</div>
+    <div class="portfolio-content">
+    <ul>
+        <li>정선군립 도서관의 웹사이트 신규 구축 개발 프로젝트입니다.</li>
+        <li>도서 검색, 대출/반납, 예약 서비스 등 도서관의 핵심 기능을 온라인으로 제공합니다.</li>
+        <li>해당 프로젝트를 진행하면서 CMS 초기 버전을 구축했습니다.</li>
+        <li><a href="https://lib.jeongseon.go.kr/main" target="_blank" rel="noreferrer">정선군립 도서관 주소</a></li>
+    </ul>
+    </div>
+    <div class="portfolio-image">
+        <a href="https://lib.jeongseon.go.kr/main" target="_blank" rel="noreferrer">
+            <img src="/public/img/post/06/jeongseon_main.png" alt="정선군립 도서관 메인 페이지"/>
+        </a>
+        <a href="https://lib.jeongseon.go.kr/main" target="_blank">
+            <div class="image-caption">정선군립 도서관 메인 페이지</div>
+        </a>
+    </div>
 </div>
 
 ---
