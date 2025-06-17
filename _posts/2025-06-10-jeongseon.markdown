@@ -22,8 +22,12 @@ demo: https://jeongseon-library.com
 </ul>
 </div>
 <div class="portfolio-image">
-    <img src="/public/img/post/06/jeongseon_main.png" alt="정선군립 도서관 메인 페이지"/>
-    <div class="image-caption">정선군립 도서관 메인 페이지</div>
+    <a href="https://lib.jeongseon.go.kr/main" target="_blank">
+        <img src="/public/img/post/06/jeongseon_main.png" alt="정선군립 도서관 메인 페이지"/>
+    </a>
+    <a href="https://lib.jeongseon.go.kr/main" target="_blank">
+        <div class="image-caption">정선군립 도서관 메인 페이지</div>
+    </a>
 </div>
 </div>
 
@@ -79,7 +83,14 @@ demo: https://jeongseon-library.com
         <li>개인정보 관리</li>
         <li>대출 현황 확인</li>
     </ul>
-    </div>
+
+    <h3>4. CMS</h3>
+    <ul>
+        <li>배너, 팝업 등 홈페이지 관리 기능</li>
+        <li>게시판 관련 기능</li>
+        <li>문화/행사 관리 기능</li>
+    </ul>
+</div>
     <div class="portfolio-image">
         <div class="image-group">
             <img src="/public/img/post/06/jeongseon_intro_search.png" alt="인트로 검색">
@@ -94,8 +105,19 @@ demo: https://jeongseon-library.com
             <div class="image-caption">도서 검색 및 관리 시스템</div>
         </div>
     </div>
-
 </div>
+
+---
+
+## 💡내 역할
+
+- 유저의 관심도서 기능을 위한 DB 설계 및 개발
+- 회원 관련 외부 API 연동 및 기능 개발 
+- 전역 예외처리
+- 게시판 기능 개발
+- 홈페이지 관리를 위한 CMS 초기 버전
+- ALPAS API 연동(도서관련 기능)
+
 ---
 
 ## 🌲 성장 경험
