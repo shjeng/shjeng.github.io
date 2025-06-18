@@ -7,8 +7,8 @@ category: portfolio
 tags: [웹개발, React, Node.js, MongoDB]
 role: 프론트엔드 개발
 team: 4명 (프론트엔드 2명, 백엔드 2명)
-github: https://github.com/username/jeongseon-library
-demo: https://jeongseon-library.com
+github: https://github.com/apex-kor/jeongseonLib-user
+demo: https://lib.jeongseon.go.kr/main
 ---
 
 ## 📋 프로젝트 개요
@@ -40,7 +40,7 @@ demo: https://jeongseon-library.com
     <h3>Backend</h3>
     <ul>
       <li><strong>Language</strong>: Java 21</li>
-      <li><strong>Framework</strong>: Spring Boot 2.7.18, Spring MVC, EGovFrame, Mybatis</li>
+      <li><strong>Framework</strong>: Spring Boot, EGovFrame, Mybatis</li>
       <li><strong>View Engine</strong>: JSP + JSTL</li>
       <li><strong>Logging</strong>: log4jdbc-log4j2 + Log4j2</li>
     </ul>
@@ -100,10 +100,6 @@ demo: https://jeongseon-library.com
         <div class="image-group">
             <img src="/public/img/post/06/jeongseon_culture_list.png" alt="문화행사 목록 이미지">
             <div class="image-caption">문화행사 목록</div>
-        </div>
-        <div class="image-group">
-            <img src="/public/img/post/06/jeongseon_intro_search.png" alt="도서 검색 및 관리 시스템">
-            <div class="image-caption">도서 검색 및 관리 시스템</div>
         </div>
     </div>
 </div>
