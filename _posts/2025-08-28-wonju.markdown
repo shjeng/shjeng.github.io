@@ -15,7 +15,7 @@ demo: https://lib.wonju.go.kr/portal/main
 <div class="portfolio-section">
     <div class="portfolio-content">
     <ul>
-        <li>원주시립 도서관의 신규 웹사이트 구축 개발 프로젝트입니다. </li>
+        <li>원주시립 도서관의 고도화 프로젝트입니다. </li>
         <li>이용자 홈페이지 및  CMS를 개발했습니다. </li>
         <li><a href="https://lib.wonju.go.kr/portal/main" target="_blank" rel="noreferrer">원주시립도서관 주소</a></li>
     </ul>
