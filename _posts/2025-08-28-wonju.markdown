@@ -93,7 +93,7 @@ demo: https://lib.wonju.go.kr/portal/main
             <div class="image-caption">검색 페이지</div>
         </div>
         <div class="image-group">
-            <img src="/public/img/post/wonju/sokcho_cms_main.png" alt="CMS 메인 페이지">
+            <img src="/public/img/post/wonju/cms_main.png" alt="CMS 메인 페이지">
             <div class="image-caption">CMS 메인 페이지</div>
         </div>
     </div>
@@ -125,6 +125,24 @@ demo: https://lib.wonju.go.kr/portal/main
 ## 🚀 트러블 슈팅
 
 ### 📦 본인인증 후 세션 유실
+#### ⚠️ 문제 상황
+> 휴대폰 및 아이핀 본인인증 후 세션이 유실돼서 회원가입 및 비밀번호 찾기 기능이 작동하지 않는 문제 발생 
+> 
+> 세션 쿠키의 'SameSite' 속성이 기본 값으로 되어 있어서 발생한 문제였음. 
+#### ✅ 개선 방식: SameSite 속성을 아래와 같이 설정 
+```    
+server:
+  forward-headers-strategy: native
+  servlet:
+    session:
+      cookie:
+        name: JSESSIONID
+        http-only: true
+        secure: true
+        same-site: None
+```
+
+### 📦 엑셀 다운로드 오류 발생
 
 #### ⚠️ 문제 상황
 
@@ -187,27 +205,27 @@ public class SXSSFWorkbookExample {
 
 <div class="screenshot-grid">
 <div class="screenshot-item">
-        <img src="/public/img/post/06/sokcho_2.png" alt="속초시립 도서관 스크린샷 1">
+        <img src="/public/img/post/wonju/ja_main1.png" alt="중앙도서관 메인 페이지 1">
         <div class="image-caption">메인 페이지</div>
     </div>
     <div class="screenshot-item">
-        <img src="/public/img/post/06/sokcho_6.png" alt="속초시립 도서관 스크린샷 2">
+        <img src="/public/img/post/wonju/join.png" alt="회원가입 페이지">
         <div class="image-caption">회원가입 페이지</div>
     </div>
     <div class="screenshot-item">
-        <img src="/public/img/post/06/sokcho_3.png" alt="속초시립 도서관 스크린샷 3">
+        <img src="/public/img/post/wonju/board1.png" alt="게시판">
         <div class="image-caption">게시판</div>
     </div>
     <div class="screenshot-item">
-        <img src="/public/img/post/06/sokcho_6.png" alt="속초시립 도서관 스크린샷 6">
+        <img src="/public/img/post/wonju/cms_menu.png" alt="cms 메뉴 관리">
         <div class="image-caption">메뉴 관리</div>
     </div>
     <div class="screenshot-item">
-        <img src="/public/img/post/06/sokcho_4.png" alt="속초시립 도서관 스크린샷 4">
+        <img src="/public/img/post/wonju/cms_banner.png" alt="속초시립 도서관 스크린샷 4">
         <div class="image-caption">배너 관리</div>
     </div>
     <div class="screenshot-item">
-        <img src="/public/img/post/06/sokcho_5.png" alt="속초시립 도서관 스크린샷 5">
+        <img src="/public/img/post/wonju/cms_footer.png" alt="속초시립 도서관 스크린샷 5">
         <div class="image-caption">퀵메뉴 관리</div>
     </div>
 </div>
